@@ -20,3 +20,11 @@ function get_moar_cookies() {
     user_settings = JSON.parse(values);
   }
 }
+
+function food_coloring() {
+	for(i = 0; i < 26; i++) {
+		if ("question" + i in questions_clicked) {
+			document.getElementById('q' + i).style.backgroundColor = "#626975";
+		}
+	}
+}
