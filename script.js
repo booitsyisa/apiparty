@@ -26,7 +26,6 @@ function food_coloring() {
 	for(i = 1; i < 26; i++) {
 		key = "q" + i;
 		if (key in questions_clicked) {
-			console.log(key);
 			$("#" + key).css("background", "#626975");
 		}
 	}
