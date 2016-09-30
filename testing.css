@@ -47,6 +47,10 @@ a {
   font-size: 2em;
 }
 
+#clicked { 
+  background-color: #626975; 
+}
+
 
 
 /* For the question pages*/
