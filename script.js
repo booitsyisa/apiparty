@@ -24,8 +24,9 @@ function get_moar_cookies() {
 
 function food_coloring() {
 	for(i = 0; i < 26; i++) {
-		if ("question" + i in questions_clicked) {
-			document.getElementById('q' + i).style.backgroundColor = "#626975";
+		key = "q" + i;
+		if ( key in questions_clicked) {
+			$(key).css("background", "#626975");
 		}
 	}
 }
