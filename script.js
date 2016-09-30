@@ -23,10 +23,10 @@ function get_moar_cookies() {
 }
 
 function food_coloring() {
-	for(i = 0; i < 26; i++) {
+	for(i = 1; i < 26; i++) {
 		key = "q" + i;
-		console.log(key);
 		if ( key in questions_clicked) {
+					console.log(key);
 			$(key).css("background", "#626975");
 		}
 	}
