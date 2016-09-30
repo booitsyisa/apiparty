@@ -27,7 +27,7 @@ function food_coloring() {
 		key = "q" + i;
 		if (key in questions_clicked) {
 			console.log(key);
-			$(key).css("background", "#626975");
+			$("#" + key).css("background", "#626975");
 		}
 	}
 }
